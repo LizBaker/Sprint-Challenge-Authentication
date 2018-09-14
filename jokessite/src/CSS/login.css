@@ -1,0 +1,53 @@
+.loginpage {
+    background-image: url("https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?cs=srgb&dl=adorable-animal-animal-photography-1183434.jpg&fm=jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .loginpage h1 {
+      margin-top: 70px;
+      color: white;
+      font-size: 400%;
+  }
+  
+  form {
+    box-sizing: border-box;
+    padding: 2%;
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 200px;
+    background: rgba(255, 255, 255, 0.753);
+  }
+
+  form > p {
+      font-size: 90%;
+  }
+  
+  .login > input {
+    height: 25px;
+    width: 180px;
+    font-size: 100%;
+    margin: 3%;
+    font-family: 'Noto Serif JP', sans-serif;
+    border-radius: 5px;
+    border: solid lightgrey 1px;
+  }
+  
+  .login > button {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 80%;
+    margin-top: 3%;
+  }
+  

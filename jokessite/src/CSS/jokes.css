@@ -1,0 +1,46 @@
+* {
+    font-family: 'Noto Serif JP', sans-serif; 
+}
+
+.jokespage {
+    background-image: url("https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?cs=srgb&dl=adorable-animal-animal-photography-1183434.jpg&fm=jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: fixed;
+}
+.jokes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.joke {
+box-sizing: border-box;
+padding: 1%;
+height: 100px;
+width: 400px;
+margin: 2%;
+border-radius: 5px;
+border: dotted rgba(255, 255, 255, 0.719) 3px;
+background: rgba(255, 192, 203, 0.842);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logout {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.logout > button {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 80%;
+}
